@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Collections;
-import java.util.Stack;
 
 public class Quiz9093 { // 이것도,, 메모리 초과 하지만 결과는 잘 나옴 ,,, - 수정 완료 
     public static void main(String[] args) throws IOException {
