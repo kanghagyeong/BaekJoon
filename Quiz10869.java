@@ -17,5 +17,6 @@ public class Quiz10869 {
         System.out.println(multiply);
         System.out.println(divide);
         System.out.println(remain);
+        sc.close();
     }
 }

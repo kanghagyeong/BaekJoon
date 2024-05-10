@@ -13,5 +13,6 @@ public class Quiz1330 {
         } else if (A == B) {
             System.out.println("==");
         }
+        input.close();
     }
 }

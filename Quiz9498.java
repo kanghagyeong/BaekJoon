@@ -23,5 +23,6 @@ public class Quiz9498 {
                 System.out.println("F");
                 break;
         }
+        input.close();
     }
 }

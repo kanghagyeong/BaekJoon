@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 
 public class Quiz9093 { // 이것도,, 메모리 초과 하지만 결과는 잘 나옴 ,,, - 수정 완료 
     public static void main(String[] args) throws IOException {
-       
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringBuilder sbr = new StringBuilder();
@@ -17,15 +17,16 @@ public class Quiz9093 { // 이것도,, 메모리 초과 하지만 결과는 잘 
             String[] st = n1.split(" ");
 
             for (int j = 0; j < st.length; j++) {
-              sb.append(st[j]);
-              sbr.append(sb.reverse().toString());
-              sb.setLength(0);
-              sbr.append(" ");
+                sb.append(st[j]);
+                sbr.append(sb.reverse().toString());
+                sb.setLength(0);
+                sbr.append(" ");
             }
-            
+
             System.out.println(sbr.toString());
             sbr.setLength(0);
         }
+        br.close();
 
     }
 }

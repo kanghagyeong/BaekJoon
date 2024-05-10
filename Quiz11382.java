@@ -8,6 +8,7 @@ public class Quiz11382 {
         long C = sc.nextLong();
         long result = A + B + C;
         System.out.println(result);
+        sc.close();
     }
 }
 

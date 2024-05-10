@@ -15,6 +15,6 @@ public class Quiz2753 {
             System.out.println("0");
         }
 
-
+        sc.close();
     }
 }

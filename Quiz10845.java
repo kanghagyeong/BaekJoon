@@ -67,6 +67,7 @@ public class Quiz10845 {
 
         }
         System.out.println(sb);
+        br.close();
 
     }
 }

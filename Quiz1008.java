@@ -7,5 +7,6 @@ public class Quiz1008 {
         double B = sc.nextInt();
         double result = A / B;
         System.out.println(result);
+        sc.close();
     }
 }

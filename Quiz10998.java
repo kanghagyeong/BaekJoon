@@ -7,5 +7,6 @@ public class Quiz10998 {
         int B = sc.nextInt();
         int result = A * B;
         System.out.println(result);
+        sc.close();
     }
 }

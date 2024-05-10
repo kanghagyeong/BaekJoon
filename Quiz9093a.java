@@ -30,6 +30,6 @@ public class Quiz9093a { // 스택 사용하여 풀어서 메모리 초과 하�
             System.out.println(sb.toString());
             sb.setLength(0);
         }
-
+        br.close();
     }
 }

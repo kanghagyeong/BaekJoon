@@ -44,5 +44,6 @@ public class Quiz10828 {
                 }
             }
         }
+        br.close();
     }
 }

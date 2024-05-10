@@ -6,7 +6,6 @@ import java.util.Stack;
 public class Quiz9012 {
 
     public static void main(String[] args) throws IOException {
-        
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -43,6 +42,7 @@ public class Quiz9012 {
             }
 
         }
+        br.close();
 
     }
 

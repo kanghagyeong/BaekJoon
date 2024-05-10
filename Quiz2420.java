@@ -8,6 +8,6 @@ public class Quiz2420 {
 
         long res = Math.abs(n - m);
         System.out.println(res);
-
+        sc.close();
     }
 }

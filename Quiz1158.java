@@ -39,7 +39,7 @@ public class Quiz1158 {
         sb.deleteCharAt(sb.length() - 1);
 
         System.out.println("<" + sb + ">");
-
+        br.close();
 
     }
 }

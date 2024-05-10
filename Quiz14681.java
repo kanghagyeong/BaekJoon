@@ -15,5 +15,6 @@ public class Quiz14681 {
         } else if (A < 0 && B < 0) {
             System.out.println("3");
         }
+        input.close();
     }
 }

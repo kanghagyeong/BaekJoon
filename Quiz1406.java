@@ -57,7 +57,7 @@ public class Quiz1406 {
             sb.append(a);
         }
         System.out.print(sb.toString());
-        
+        br.close();
 
     }
 }
