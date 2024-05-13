@@ -12,6 +12,16 @@ public class Quiz2525 {
 
         int C = Integer.parseInt(br.readLine());
 
+        int minute = 60 * A + B;
+        minute += C;
+        int hour = (minute / 60) % 24;
+        int minutes = minute % 60;
+
+        bw.write(hour + " " + minutes);
+        bw.flush();
+        br.close();
+        bw.close();
+
 
     }
 }
